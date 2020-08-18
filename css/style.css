@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-bar{
+	text-align: center;
+	height: 70px;
+	background: #1997FA;
+	line-height: 70px;
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+	margin: 0px 10px;
+	transition: 0.5s;
+}
+.menu-bar ul li a:hover{
+	color: red;
+	transition: 0.5s;
+}
+
+
+/*  banner section css here */
+.banner{
+	width: 100%;
+	/*background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	height: 100vh;
+}
+.banner h1{
+	font-size: 52px;
+	text-align: center;
+	color: black;
+	padding-top: 200px;
+}
+.social-media{
+	text-align: center;
+	margin-top: 80px; 
+}
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media ul li a i{
+	font-size: 22px;
+	height: 60px;
+	width: 60px;
+	background: #1997FA;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+.social-media ul li a i:hover{
+	background-color: red;
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+/* position css property example */
+.box{
+	height: 300px;
+	width: 500px;
+	background-color: green;
+	margin: 0 auto;
+	position: relative;
+}
+.circle{
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	background: red;
+	border-radius: 100%;
+	top: 90px;
+	left: 120px;
+
+}
+.outer-box{
+	height: 200px;
+	width: 300px;
+	background: tomato;
+	position: relative;
+}
+.inner-box{
+	height: 40px;
+	width: 40px;
+	background: tomato;
+	position: absolute;
+	bottom: -20px;
+	left: 50px;
+	transform: rotate(45deg);
+}
+
+.form-body{
+	width: 300px;
+	height: 500px;
+	background: grey;
+	margin: 20px auto;
+}
